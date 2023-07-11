@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  outline: none;
+}
+a:active,
+a:focus,
+input,
+select,
+textarea {
+  outline: none !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+.container {
+  text-decoration: none !important;
+  transition: all 0.5s;
+}
+
+a:hover,
+a:focus {
+  color: #323232;
+}
+
+a:hover,
+.btn,
+button,
+.btn:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
